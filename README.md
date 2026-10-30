@@ -19,7 +19,7 @@ Dois pontos que parecem contraditórios e não são: a maior parte dos atrasos v
 ![Dashboard de atrasos de entrega](dashboard/dashboard.png)
 
 O dashboard resume o resultado da análise SQL e acrescenta a visão por estado.
-Arquivos: [`Olist_analise.pbix`](dashboard/dashboard_olist.pbix) · [`dashboard_olist.pdf`](dashboard/dashboard_olist.pdf)
+Arquivos: [`Olist_analise.pbix`](dashboard/Olist_analise.pbix) · [`dashboard_olist.pdf`](dashboard/dashboard_olist.pdf)
 
 **Base:** 93.863 pedidos entregues (mesmos filtros da consulta SQL).
 
