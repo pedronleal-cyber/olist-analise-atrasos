@@ -14,6 +14,21 @@ Quando o vendedor atrasou o despacho, **20,9%** dos pedidos chegaram atrasados (
 
 Dois pontos que parecem contraditórios e não são: a maior parte dos atrasos vem do grupo "vendedor no prazo" só porque ele é 91% dos pedidos; mas o risco **por pedido** é bem maior quando o vendedor atrasa. Também chama atenção que 6.839 pedidos tiveram o vendedor atrasado e mesmo assim chegaram no prazo: a data prometida absorveu a demora.
 
+## Dashboard (Power BI)
+
+![Dashboard de atrasos de entrega](dashboard/dashboard.png)
+
+O dashboard resume o resultado da análise SQL e acrescenta a visão por estado.
+Arquivos: [`dashboard_olist.pbix`](dashboard/dashboard_olist.pbix) · [`dashboard_olist.pdf`](dashboard/dashboard_olist.pdf)
+
+**Base:** 93.863 pedidos entregues (mesmos filtros da consulta SQL).
+
+**O que ele mostra**
+- **Matriz vendedor × entrega ao cliente:** 20,95% dos pedidos com vendedor atrasado chegam atrasados ao cliente, contra 5,50% quando o vendedor cumpre o prazo.
+- **Taxa de atraso por estado** (apenas estados com 100+ pedidos, para evitar taxas instáveis): as maiores taxas estão no Nordeste (AL 21,23%, MA 17,89%, SE 15,45%, PI 14,13%, CE 14,09%), além de RJ (12,33%) e ES (10,97%). SP fica em 4,60%, abaixo da média geral de 6,92%.
+
+**Cuidado na interpretação:** o dashboard mostra *onde* os atrasos se concentram, não *por quê*. Distância, malha logística e prazos estimados são hipóteses a testar, não conclusões.
+
 ## Recomendação
 Dois focos.
 
